@@ -1,0 +1,108 @@
+Challenge 1
+
+	•	LLM: Google Gemini
+	•	Language: Python
+	•	Prompt Engineering Technique: Zero-shot prompting
+
+Write a Python script that reads customer data from a CSV file and sends personalized promotional emails to each customer. Use an email template where you can insert the customer's name and a unique discount code. Assume the CSV file contains "Name", "Email", and "DiscountCode" columns.
+
+Challenge 2
+
+	•	LLM: OpenAI GPT-4
+	•	Language: JavaScript
+	•	Prompt Engineering Technique: Few-shot prompting
+
+// Example 1:
+// Input: 
+// const orders = [
+//   { id: 1, total: 150.00 },
+//   { id: 2, total: 200.50 }
+// ];
+// Output: 350.50
+
+// Example 2:
+// Input: 
+// const orders = [
+//   { id: 3, total: 99.99 },
+//   { id: 4, total: 49.99 },
+//   { id: 5, total: 29.99 }
+// ];
+// Output: 179.97
+
+// Now, write a JavaScript function that takes an array of order objects and returns the total sales amount.
+
+Challenge 3
+
+	•	LLM: Deepseek Coder
+	•	Language: Java
+	•	Prompt Engineering Technique: Chain-of-thought prompting
+
+We need to build a Java application that manages an online library system. The application should allow users to borrow and return books, and keep track of the availability of each book. Consider how to handle cases where a user tries to borrow a book that's already checked out.
+
+Now, implement the LibraryManager class with methods to borrow and return books, ensuring proper synchronization if accessed by multiple users simultaneously.
+
+Challenge 4
+
+	•	LLM: Microsoft Sonnet
+	•	Language: C#
+	•	Prompt Engineering Technique: Role-playing prompts
+
+You are a software engineer at a retail company. Your task is to develop a C# method that processes online orders. The method should validate the order details, calculate the total price with taxes, and update the inventory levels accordingly. Ensure to handle any potential errors gracefully.
+
+Challenge 5
+
+	•	LLM: Meta Code Llama
+	•	Language: PHP
+	•	Prompt Engineering Technique: Instruction-based prompts
+
+Create a PHP script that connects to a MySQL database and retrieves a list of customers who haven't made a purchase in the last year. The script should then generate a personalized re-engagement email for each of these customers.
+
+Challenge 6
+
+	•	LLM: Amazon CodeWhisperer
+	•	Language: JavaScript
+	•	Prompt Engineering Technique: Contextual prompts
+
+In modern web applications, optimizing load times is crucial. Given this context, write a JavaScript function that lazy-loads images on a webpage as the user scrolls down. The function should improve page performance by only loading images currently in the viewport.
+
+Challenge 7
+
+	•	LLM: OpenAI Codex
+	•	Language: Ruby
+	•	Prompt Engineering Technique: System message manipulation
+
+As an experienced Ruby developer, write a script that automates the generation of weekly sales reports. The script should aggregate sales data, generate charts, and email the report to the sales team. Utilize appropriate gems for data manipulation and email delivery.
+
+Challenge 8
+
+	•	LLM: Replit’s Ghostwriter
+	•	Language: Go
+	•	Prompt Engineering Technique: Self-reflection prompts
+
+Write a Go program that processes real-time stock market data to identify significant price changes. After implementing the program, reflect on how Go's concurrency features help in handling real-time data streams and suggest any optimizations.
+
+Challenge 9
+
+	•	LLM: TabNine
+	•	Language: Swift
+	•	Prompt Engineering Technique: Socratic questioning
+
+How would you design a Swift app feature that securely stores user credentials for automatic login? Consider keychain services and discuss how you would implement this while maintaining user security and privacy.
+
+Challenge 10
+
+	•	LLM: Google Gemini
+	•	Language: TypeScript
+	•	Prompt Engineering Technique: Data augmentation
+
+Given the following data model in TypeScript:
+
+interface Sale {
+  date: string;
+  region: string;
+  amount: number;
+}
+
+Write a function that takes an array of `Sale` objects and returns a report of total sales per region. Additionally, create sample data to test your function, including at least three different regions and multiple sales per region.
+
+These challenges are designed to reflect real-world business scenarios that developers often encounter in their daily work. Each prompt utilizes a different prompt engineering technique to engage various coding-focused LLMs effectively.
